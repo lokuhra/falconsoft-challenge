@@ -112,25 +112,25 @@ GET https://jsonplaceholder.typicode.com/users/:id/posts
 
 **Notas**
 
-- **TESTING E2E** cubierto al 100%
+- **TESTING E2E**: Cubierto al 100%
 
 ![](readme/e2e.gif)
 
-- **DEBOUNCE** Implemente una caja da busqueda por name, username, email y company (no ciudad ni telefono, ya que no lo pedia en los requisitos) con una funcion DEBOUNCE para que recien se filtre cuando el usuario deja de escribir y asi evitar renderizados innecesarios.
+- **DEBOUNCE**: Implemente una caja da busqueda por name, username, email y company (no ciudad ni telefono, ya que no lo pedia en los requisitos) con una funcion DEBOUNCE para que recien se filtre cuando el usuario deja de escribir y asi evitar renderizados innecesarios.
 
 ![](readme/debounce.gif)
 
-- **ESTRUCTURAS DE CARPETAS** uso uno que se conoce como "features" (un poco modificada ) esta siendo bastante populares debido a que da mucha escalabilidad y es muy mantenible (https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md)
+- **ESTRUCTURAS DE CARPETAS**: Uso uno que se conoce como "features" (un poco modificada ) esta siendo bastante populares debido a que da mucha escalabilidad y es muy mantenible (https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md)
 
-- **COMPONENTES** divididos en ui, composed, features y providers.
+- **COMPONENTES**: Divididos en ui, composed, features y providers.
 
 ![](readme/components.gif)
 
-- **REACT ROUTER** uno use REACT ROUTER ya que al usar next.js no es necesario usar react router ya que tiene su propio router.
+- **REACT ROUTER**: Uno use REACT ROUTER ya que al usar next.js no es necesario usar react router ya que tiene su propio router.
 
-- **AXIOS** Uso axios para las peticiones a la API y cree un interceptor tambien.
+- **AXIOS**: Uso axios para las peticiones a la API y cree un interceptor tambien.
 
-- **ENV** deje el env.local en el repositorio para que se pueda ejecutar la aplicación sin problemas.
+- **ENV**: Deje el env.local en el repositorio para que se pueda ejecutar la aplicación sin problemas.
 
 </details>
 </details>
